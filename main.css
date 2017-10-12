@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+body {
+    background-image: url('http://img3.themebin.com/1920x1080/abstract_polygons.jpg');
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: black;
+    text-shadow: 0px 0 2px #e5e5a7, 0px 0 2px #e5e5a7;
+    margin: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+#tweetBtn {
+    margin: 30px;
+}
+
+#quoteBtn {
+    box-shadow: 0px 7px 41px -7px #295f66;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #325a69;
+    color: #000000;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3.5rem;
+    padding: 13px 32px;
+    text-shadow: 0px 1px 3px #d8d897;
+    width: 40%;
+}
+
+#btn:hover {
+    background-color: transparent;
+}
+
+#quoteBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+@media screen and (max-width:1280px) {
+    body {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    #quoteBtn {
+        font-size: 2.8em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:720px) {
+    body {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    #quoteBtn {
+        font-size: 2.2em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:420px) {
+    #quoteBtn {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
