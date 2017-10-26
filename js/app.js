@@ -3,7 +3,7 @@ $('#quoteBtn').click(() => {
 })
 
 function changeQuote() {
-    const jokeApi = "http://api.icndb.com/jokes/random";
+    const jokeApi = "https://api.icndb.com/jokes/random";
     $.get(jokeApi, (data) => {
         $('#quote').html(data["value"]["joke"]);
     });
