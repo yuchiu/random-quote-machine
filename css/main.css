@@ -18,10 +18,10 @@ body {
     margin: 1em auto;
     font-weight: bold;
     width: 800px;
-    border: rgba(38, 214, 29, 0.83) 1px solid;
-    color: rgba(38, 214, 29, 0.83);
-    text-shadow: 0 0 1px #e6f9e6, 0 0 3px #3cd834, 0 0 3px #3cd834;
-    
+    border: rgba(81, 198, 219, 0.7) 1px solid;
+    color: rgba(90, 214, 237, 0.75);
+    text-shadow: 0 0 1px #e6f9e6, 0 0 10px #3cd834, 0 0 10px #3cd834;
+
     -webkit-box-shadow: 0 0 2px #e6f9e6, 0 0 3px #3cd834, 0 0 3px #3cd834, 0 0 5px #4bf742, 0 0 5px #4bf742;
     -moz-box-shadow: 0 0 2px #e6f9e6, 0 0 3px #3cd834, 0 0 3px #3cd834, 0 0 5px #4bf742, 0 0 5px #4bf742;
     box-shadow: 0 0 2px #e6f9e6, 0 0 3px #3cd834, 0 0 3px #3cd834, 0 0 5px #4bf742, 0 0 5px #4bf742;
