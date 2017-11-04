@@ -1,0 +1,64 @@
+
+
+@media screen and (max-width:1280px) {
+    body {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    #quote {
+        font-size: 1.5em;
+    }
+    #title-container{
+        width:650px;
+    }
+    #quote-screen{
+        width:650px;
+    }
+    #machine-container {
+        width:665px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    body {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    #machine-container {
+        width:445px;
+    }
+    #title-container{
+        width:400px;
+    }
+    #quote{
+        font-size:1.3em;
+    }
+    #quote-screen{
+        width:400px;
+    }
+    .machine-btn{
+        font-size: 1.3em;
+    }
+    #quoteBtn{
+        padding:6px;
+      }
+    #tweetBtn{
+        margin-top:-2px;
+        
+    }
+}
+
+@media screen and (max-width:420px) {
+    #quote {
+        font-size: 1em;
+    }
+    #title-container{
+        width:300px;
+    }
+    #quote-screen{
+        width:300px;
+    }
+    #machine-container {
+        width:310px;
+    }
+}
